@@ -1,0 +1,22 @@
+mvn archetype:generate -DgroupId=it.isa.gamedadi -DartifactId=GameDeiDadi -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+
+nel pom uso junit e jacoco
+
+
+dopo aver scritto i test e le classi, si fa "mvn test" e si va sulla cartella 'site/jacoco/index'
+per vedere le statistiche
+
+git init
+
+touch .gitignore
+#https://www.toptal.com/developers/gitignore
+#scrivo java e maven e ricopio il contenuto
+
+git config --global user.name "Matteo Bonato"
+git config --global user.mail "matteo01.bonato@edu.unife.it"
+
+git add -A		#git reset (per annullare)
+git status #opzionale
+git commit -m "prima versione con lancio dadi"
+
