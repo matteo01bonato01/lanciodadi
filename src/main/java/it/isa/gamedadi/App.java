@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
     {
         
-        //IteratorPattern.esegui();
+        IteratorPattern.esegui();
         
         System.out.println(ConsoleColors.YELLOW + "******* Hai 3 opzioni ******\n" +
                             ConsoleColors.RESET + "Premi 1 per avviare un lancio automatico\n" +

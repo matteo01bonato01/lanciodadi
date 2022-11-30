@@ -14,9 +14,16 @@ touch .gitignore
 #scrivo java e maven e ricopio il contenuto
 
 git config --global user.name "Matteo Bonato"
-git config --global user.mail "matteo01.bonato@edu.unife.it"
+git config --global user.mail matteo01.bonato@edu.unife.it
 
 git add -A		#git reset (per annullare)
 git status #opzionale
 git commit -m "prima versione con lancio dadi"
 
+
+git remote add origin https://github.com/matteo01bonato01/lanciodadi.git
+git branch -M master
+git remote -v
+git push origin 
+inserisci user matteo01bonato01
+password: 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
