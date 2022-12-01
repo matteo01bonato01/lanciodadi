@@ -10,10 +10,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        
+        /****************** PRIMO GIOCO - INTERCETTAZIONE *********************/
         IteratorPattern.esegui();
         
-        System.out.println(ConsoleColors.YELLOW + "******* Hai 3 opzioni ******\n" +
+
+        /****************** SECONDO GIOCO - LANCIO DEI DADI *********************/
+        
+        System.out.println(ConsoleColors.YELLOW + "\n\n\nGIOCO DEI DADi\n" +
+                            "******* Hai 3 opzioni ******\n" +
                             ConsoleColors.RESET + "Premi 1 per avviare un lancio automatico\n" +
                             "Premi 2 per avviare un lancio manuale\n" +
                             "Premi 3 o qualsiasi altro tasto per chiudere");
